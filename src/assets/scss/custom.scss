@@ -1,0 +1,28 @@
+/*
+	Using Bourbon
+*/
+@import 'bourbon/bourbon';
+
+/*
+	Base template for developing with SCSS / SASS
+	Author: Ryan Heinrich
+	Version: 0.0.1
+*/
+
+/* BASE - Base styles, variables, mixins, etc. */
+@import 'mySCSS/base/variables.scss';
+@import 'mySCSS/base/mixins.scss';
+@import 'mySCSS/base/normalize.scss';
+@import 'mySCSS/base/base.scss';
+
+/* MODULES - Individual site components */
+@import 'mySCSS/modules/typography.scss';
+@import 'mySCSS/modules/blocks.scss';
+@import 'mySCSS/modules/buttons.scss';
+@import 'mySCSS/modules/sections.scss';
+@import 'mySCSS/modules/components.scss';
+
+/* LAYOUTS - Page layout styles */
+@import 'mySCSS/layouts/nav.scss';
+@import 'mySCSS/layouts/header.scss';
+@import 'mySCSS/layouts/footer.scss';

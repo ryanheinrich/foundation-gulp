@@ -1,0 +1,8 @@
+.top-bar{
+    @include linear-gradient(#333333, #555555)
+}
+
+// Multiple linear-gradients - Demo
+.row{
+  @include background-image(linear-gradient(hsla(0, 100%, 100%, 0.25) 0%, hsla(0, 100%, 100%, 0.08) 50%, transparent 50%),linear-gradient(#4e7ba3, darken(#4e7ba4, 10%)));
+}
